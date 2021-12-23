@@ -4,7 +4,7 @@ import { StringMappingType } from "typescript";
 declare module "styled-components" {
   export interface DefaultTheme {
     themeColors: {
-      titleColor: string;
+      txColor: string;
       bgColor: string;
     };
     colors: {

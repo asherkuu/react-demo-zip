@@ -8,7 +8,7 @@ const colors = {
 
 export const dark = {
   themeColors: {
-    titleColor: "#ffffff",
+    txColor: "#ffffff",
     bgColor: "#232323",
   },
   colors,
@@ -16,7 +16,7 @@ export const dark = {
 
 export const light = {
   themeColors: {
-    titleColor: "#232323",
+    txColor: "#232323",
     bgColor: "#ffffff",
   },
   colors,

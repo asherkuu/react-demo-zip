@@ -3,8 +3,14 @@ import { Theme } from "./theme";
 
 export const GlobalStyles = createGlobalStyle`
 :root {
-  --color__titleColor: ${(props: any) => props.theme.themeColors.titleColor};
-  --color__bgColor: ${(props: any) => props.theme.themeColors.bgColor};
+  /* text color */
+  --color__txColor: ${(props: any) => props.theme.themeColors.txColor};
+  /* background-color */
+  --color__bgColor: ${(props: any) => props.theme.themeColors.bgColor}; 
+  /* border-color */
+  --color__bdColor: ${(props: any) => props.theme.themeColors.bdColor}; 
+  /* border-radius */
+  --color__bdRadius: 4px;
 }
 
   * { box-sizing: border-box; }
@@ -15,7 +21,7 @@ export const GlobalStyles = createGlobalStyle`
 
 
   body {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
   }
 `;
