@@ -6,6 +6,8 @@ import { ThemeProvider } from "styles/styled";
 import { GlobalStyles } from "styles/global";
 import Header from "components/common/Header";
 
+import "utils/extensions";
+
 function MyApp({ Component, pageProps }: AppProps) {
   const [theme, setTheme] = useState<keyof typeof themes>("dark");
 

@@ -82,8 +82,6 @@ export default function App() {
     <Contents>
       <div className="half">
         <div>
-          <h3>Todo List With VAC</h3>
-
           <VInput {...vInputProps} />
           <VList {...vListProps} />
         </div>

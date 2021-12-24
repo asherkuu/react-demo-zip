@@ -7,7 +7,9 @@ const {
   div: motionDiv,
 } = motion;
 
-const StyledMotionArticle = styled(motionArticle)``;
+const StyledMotionArticle = styled(motionArticle)`
+  padding: 0 20px;
+`;
 const StyledMotionScetion = styled(motionSection)`
   padding: 0 20px;
 `;

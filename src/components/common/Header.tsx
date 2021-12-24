@@ -8,6 +8,9 @@ const Header = ({ theme, handleTheme }) => {
   return (
     <Container>
       <ul>
+        <Link href="/">
+          <a>Home</a>
+        </Link>
         {MENU_LIST.map((item) => {
           const { id, name, href } = item;
           return (
