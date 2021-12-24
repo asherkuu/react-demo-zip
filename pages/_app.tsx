@@ -6,12 +6,10 @@ import { ThemeProvider } from "styles/styled";
 import { GlobalStyles } from "styles/global";
 import Header from "components/common/Header";
 
-export type Theme = keyof typeof themes;
-
 function MyApp({ Component, pageProps }: AppProps) {
-  const [theme, setTheme] = useState<Theme>("dark");
+  const [theme, setTheme] = useState<keyof typeof themes>("dark");
 
-  const headerProps = {
+  const headerProps: { theme: string; handleTheme: Function } = {
     theme,
     handleTheme: () => {
       setTheme(theme === "dark" ? "light" : "dark");
